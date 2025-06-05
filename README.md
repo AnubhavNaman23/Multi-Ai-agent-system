@@ -504,46 +504,16 @@ required_fields = {
 
 ---
 
-## 📸 **Screenshots & Demos**
+## 📸 **Screenshots**
 
 ### 🖥️ **Terminal Output Example**
 
-![Terminal Processing](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=Terminal+Processing+Output)
-
-### 📊 **Agent Flow Visualization**
-
-![Agent Flow](https://via.placeholder.com/800x600/4CAF50/FFFFFF?text=Multi-Agent+Processing+Flow)
+![Terminal Processing](assets/email_output.png)
 
 ### 📈 **Results Dashboard**
 
-![Dashboard](https://via.placeholder.com/800x500/FF9800/FFFFFF?text=Processing+Results+Dashboard)
+![Dashboard](assets/dashboard.png)
 
----
-
-## 🌟 **Future Roadmap**
-
-- [ ] 🤖 **Machine Learning Integration**: Advanced ML models
-- [ ] 🌐 **Real-time API**: Full REST API implementation
-- [ ] 📱 **Mobile Interface**: React Native mobile app
-- [ ] 🔐 **Security Layer**: Authentication & authorization
-- [ ] 📊 **Analytics Dashboard**: Advanced reporting
-- [ ] 🌍 **Multi-language**: International document support
-- [ ] ☁️ **Cloud Deployment**: AWS/Azure integration
-- [ ] 🔄 **Webhook Support**: Real-time notifications
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions! Please follow these steps:
-
-1. 🍴 **Fork** the repository
-2. 🌿 **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. 💬 **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. 📤 **Push** to the branch (`git push origin feature/amazing-feature`)
-5. 🔄 **Open** a Pull Request
-
----
 
 ## 📊 **Performance Metrics**
 
@@ -552,86 +522,3 @@ We welcome contributions! Please follow these steps:
 - **Supported Formats**: Email, PDF, JSON
 - **Concurrent Processing**: Multi-threaded agent execution
 - **Memory Usage**: Optimized shared memory system
-
----
-
-## 🐛 **Troubleshooting**
-
-<details>
-<summary><b>Common Issues & Solutions</b></summary>
-
-**Issue**: `ModuleNotFoundError: No module named 'PyPDF2'`
-**Solution**: Run `pip install -r requirements.txt`
-
-**Issue**: JSON validation fails
-**Solution**: Check JSON schema in `format_detector.py`
-
-**Issue**: Email parsing errors
-**Solution**: Verify email format in `email_parser.py`
-
-</details>
-
----
-
-## 📞 **Support & Contact**
-
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/AnubhavNaman23/multi-format-ai-system/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/AnubhavNaman23/multi-format-ai-system/discussions)
-- 📧 **Direct Contact**: Create an issue with the `question` label
-
----
-
-## 👨‍💻 **About the Developer**
-
-<div align="center">
-
-**🚀 Created with ❤️ by [AnubhavNaman23](https://github.com/AnubhavNaman23)**
-
-[![GitHub Profile](https://img.shields.io/badge/GitHub-AnubhavNaman23-181717?style=for-the-badge&logo=github)](https://github.com/AnubhavNaman23)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/anubhav-naman)
-
-*Passionate about AI, Machine Learning, and Intelligent Systems*
-
-</div>
-
----
-
-## 📄 **License**
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 AnubhavNaman23
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files...
-```
-
----
-
-## 🏆 **Acknowledgments**
-
-- 🙏 **OpenAI** for inspiring AI development
-- 📚 **Python Community** for excellent libraries
-- 🌟 **GitHub** for hosting and collaboration tools
-- 💡 **Open Source Contributors** worldwide
-
----
-
-<div align="center">
-
-### 🌟 **Star this repository if you found it helpful!** 🌟
-
-[![Stars](https://img.shields.io/github/stars/AnubhavNaman23/multi-format-ai-system?style=social)](https://github.com/AnubhavNaman23/multi-format-ai-system/stargazers)
-[![Forks](https://img.shields.io/github/forks/AnubhavNaman23/multi-format-ai-system?style=social)](https://github.com/AnubhavNaman23/multi-format-ai-system/network/members)
-[![Watchers](https://img.shields.io/github/watchers/AnubhavNaman23/multi-format-ai-system?style=social)](https://github.com/AnubhavNaman23/multi-format-ai-system/watchers)
-
----
-
-*🤖 Built with cutting-edge AI technology and lots of ☕*
-
-**Made in 2025 | Powered by Intelligence | Designed for the Future**
-
-</div>
