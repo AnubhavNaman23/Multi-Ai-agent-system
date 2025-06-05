@@ -1,0 +1,88 @@
+Delivered-To: anubhavnaman23@gmail.com
+Received: by 2002:aa6:c284:0:b0:2b2:6848:e83f with SMTP id y4csp5744797lko;
+        Sun, 1 Jun 2025 20:33:51 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGT307RghT7uvIToiDB1scPRORkAzIUNK3W5MpwKX5d++ljB6Glyjlf/kW5//lZBgAsltbq
+X-Received: by 2002:a05:6a00:b47:b0:73d:fa54:afb9 with SMTP id d2e1a72fcca58-747d1831943mr9255145b3a.7.1748835231628;
+        Sun, 01 Jun 2025 20:33:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1748835231; cv=none;
+        d=google.com; s=arc-20240605;
+        b=FuOdfXgqP2Ztm3E7N/dcXjp9cqMbKW/30pih/fViuoyJhd/SkpSjHNttSbqhAaCc8z
+         9Gh1uXAJ0TTd7vqG6lQccOQQgaf4gyMILeRpHLnUC0zha1oQ3WDlNPm73Dd6XjEnEAqv
+         DrBd3N5u5hSyhmZZt+DK0k8HZpFYud9bvODQDyd9PZ5ALo+QuBR0aG/9c0ZausRHSBWi
+         hVIWbkKotlOLyomX2UWmeE2MxjUETmeAMFTpE+AJ7eIPN6U8niVziZHNRezVWAJQSya+
+         sZnvM3OOaAXu2P04VMmDhDKoXi+Q03OD+v9qn8wzImpzDuwfVnvvoCjLsCesiULgT3m0
+         1WfQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=user-agent:charset:mime-version:subject:message-id:cc:to:from:date;
+        bh=GV8/UMA4qkj3uyIEh0SAivZbgjxuDjF5kXPpR4iQcKg=;
+        fh=3wIdTB8qaz+a2pxsnyCaaEP7k6YDF3QGjNi3IDm+w50=;
+        b=IzIqN1jjYXqftIL7Li8HMZ/AP97pFrXrhgF3cMMOeFOFbUlNalHl1KwJL6WaeuJTjw
+         sZTvhcLztKmOVeYqBC6Ahkpj2aJvrzlx3lmO5xblrBF82i/To1PLU+Kdk9P8wT+RkmIP
+         jTeogTg/Ni79+ctC8DgFMItvmh74nFUBYKWhedPoraDCsPZcG/Z/j+misZNGu5wGkWQs
+         iohLCdG2CrU/7Jibx3OlyyzoqYPs7dGD5+mFg9/UOrR09C0dBHbuyw2XNc3kcKAHX4M0
+         v3BnjRHiRLUa8WVbdBha8kSOMz5HM4ShB6izy2AHlalK140XTqSLLsuf5RG6TOse3xFP
+         X/mQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of info@ijat-pasn.com designates 133.18.40.146 as permitted sender) smtp.mailfrom=info@ijat-pasn.com
+Return-Path: <info@ijat-pasn.com>
+Received: from mss-g2-188.kagoya.net (mss-g2-188.kagoya.net. [133.18.40.146])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-b2ecebd5b79si9356202a12.276.2025.06.01.20.33.51
+        for <anubhavnaman23@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 01 Jun 2025 20:33:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@ijat-pasn.com designates 133.18.40.146 as permitted sender) client-ip=133.18.40.146;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of info@ijat-pasn.com designates 133.18.40.146 as permitted sender) smtp.mailfrom=info@ijat-pasn.com
+Received: from server-18-65-168-85.nrt57.r.cloudfront.net (ec2-52-68-229-181.ap-northeast-1.compute.amazonaws.com [52.68.229.181])
+	by mss-g2-188.kagoya.net (Postfix) with ESMTPSA id E475C821C0EF;
+	Mon, 02 Jun 2025 12:33:49 +0900 (JST)
+Date: Mon, 2 Jun 2025 12:33:49 +0900 (JST)
+From: =?UTF-8?Q?Internships_in_Japan__for_AI_and_?=
+ =?UTF-8?Q?Tech_Office_=EF=BC=88Inside=EF=BC=9APasona__Inc=2E=EF=BC=89?=
+ <info@ijat-pasn.com>
+To: anubhavnaman23@gmail.com
+Cc: globalsouth-it@pasona.co.jp
+Message-ID: <oyIdtylkgsJ5LcDb.1748835229916@tarayo.mailer.kintoneapp.com>
+Subject: Important: Request for the official registration! (Internships in
+ Japan for AI and Tech Talent by METI of Japan)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_9648_2072854047.1748835229915"
+charset: UTF-8
+User-Agent: tarayo/0.2.7
+
+------=_Part_9648_2072854047.1748835229915
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,
+*As of June 2, 9:40 a.m. JST, this e-mail has been sent to those who have n=
+ot yet completed the official registration.
+
+We hope this message finds you well.
+=20
+Thank you for your tentative application for the =E2=80=9CInternships in Ja=
+pan for AI and Tech Talent=E2=80=9D program.
+We have sent the official registration link to your email address. Please c=
+omplete the registration.
+=20
+If you have not yet registered, kindly check your inbox again.
+If you do not see the email, please also check your spam or junk mail folde=
+r.
+=20
+Should you have any questions, please feel free to contact us at any time.
+We look forward to receiving your registration.
+=20
+Regards,
+---------------------------------------------------------------------------=
+---
+=E3=80=90Contact=E3=80=91
+Internships in Japan  for AI and Tech Office =EF=BC=88Operations by Pasona =
+ Inc.=EF=BC=89
+TEL=EF=BC=9A=EF=BC=8B81-50-5482-6928
+MAIL=EF=BC=9Aglobalsouth-it@pasona.co.jp
+HP=EF=BC=9Ahttps://japaninternshipglobal.go.jp/
+---------------------------------------------------------------------------=
+---
+------=_Part_9648_2072854047.1748835229915--

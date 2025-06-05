@@ -1,0 +1,7 @@
+# Requirements for Email Classifier Agent
+scikit-learn
+PyPDF2
+uvicorn
+fastapi
+streamlit
+requests

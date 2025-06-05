@@ -1,0 +1,8 @@
+From: angry.customer@example.com
+To: support@company.com
+Subject: Complaint about service
+
+I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.
+
+Regards,
+Angry Customer

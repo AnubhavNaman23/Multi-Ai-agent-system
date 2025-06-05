@@ -1,0 +1,675 @@
+{
+  "results": [
+    {
+      "timestamp": "2025-06-04T13:22:52.004430",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": null,
+        "urgency": "routine",
+        "issue": null,
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender None (issue: None)"
+      ],
+      "trace": "Fields: {'sender': None, 'urgency': 'routine', 'issue': None}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender None (issue: None)"
+    },
+    {
+      "timestamp": "2025-06-04T13:32:57.026686",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "angry.customer@example.com",
+        "urgency": "escalate",
+        "issue": "I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.",
+        "tone": "escalation"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+      ],
+      "trace": "Fields: {'sender': 'angry.customer@example.com', 'urgency': 'escalate', 'issue': 'I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.'}, Tone: escalation, Action: [ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+    },
+    {
+      "timestamp": "2025-06-04T13:44:54.251412",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "angry.customer@example.com",
+        "urgency": "escalate",
+        "issue": "I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.",
+        "tone": "escalation"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+      ],
+      "trace": "Fields: {'sender': 'angry.customer@example.com', 'urgency': 'escalate', 'issue': 'I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.'}, Tone: escalation, Action: [ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+    },
+    {
+      "timestamp": "2025-06-04T13:45:13.486454",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "angry.customer@example.com",
+        "urgency": "escalate",
+        "issue": "I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.",
+        "tone": "escalation"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+      ],
+      "trace": "Fields: {'sender': 'angry.customer@example.com', 'urgency': 'escalate', 'issue': 'I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.'}, Tone: escalation, Action: [ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+    },
+    {
+      "timestamp": "2025-06-04T13:46:46.311692",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T13:49:15.536527",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "angry.customer@example.com",
+        "urgency": "escalate",
+        "issue": "I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.",
+        "tone": "escalation"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+      ],
+      "trace": "Fields: {'sender': 'angry.customer@example.com', 'urgency': 'escalate', 'issue': 'I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.'}, Tone: escalation, Action: [ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+    },
+    {
+      "timestamp": "2025-06-04T13:53:23.336821",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": null,
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.",
+        "urgency": "escalate",
+        "issue": "From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.",
+        "tone": "polite"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP. (issue: From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.)"
+      ],
+      "trace": "Fields: {'sender': 'user@example.com\\\\nSubject: Urgent Complaint\\\\nI am not happy with your service. Please resolve this ASAP.', 'urgency': 'escalate', 'issue': 'From: user@example.com\\\\nSubject: Urgent Complaint\\\\nI am not happy with your service. Please resolve this ASAP.'}, Tone: polite, Action: [ACTION] Escalated: Notified CRM for sender user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP. (issue: From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.)"
+    },
+    {
+      "timestamp": "2025-06-04T13:54:28.863352",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": null,
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.",
+        "urgency": "escalate",
+        "issue": "From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.",
+        "tone": "polite"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP. (issue: From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.)"
+      ],
+      "trace": "Fields: {'sender': 'user@example.com\\\\nSubject: Urgent Complaint\\\\nI am not happy with your service. Please resolve this ASAP.', 'urgency': 'escalate', 'issue': 'From: user@example.com\\\\nSubject: Urgent Complaint\\\\nI am not happy with your service. Please resolve this ASAP.'}, Tone: polite, Action: [ACTION] Escalated: Notified CRM for sender user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP. (issue: From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.)"
+    },
+    {
+      "timestamp": "2025-06-04T13:57:52.014168",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": null,
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.",
+        "urgency": "escalate",
+        "issue": "From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.",
+        "tone": "polite"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP. (issue: From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.)"
+      ],
+      "trace": "Fields: {'sender': 'user@example.com\\\\nSubject: Urgent Complaint\\\\nI am not happy with your service. Please resolve this ASAP.', 'urgency': 'escalate', 'issue': 'From: user@example.com\\\\nSubject: Urgent Complaint\\\\nI am not happy with your service. Please resolve this ASAP.'}, Tone: polite, Action: [ACTION] Escalated: Notified CRM for sender user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP. (issue: From: user@example.com\\nSubject: Urgent Complaint\\nI am not happy with your service. Please resolve this ASAP.)"
+    },
+    {
+      "timestamp": "2025-06-04T14:01:00.998247",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T14:03:36.602201",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "angry.customer@example.com",
+        "urgency": "escalate",
+        "issue": "I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.",
+        "tone": "escalation"
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+      ],
+      "trace": "Fields: {'sender': 'angry.customer@example.com', 'urgency': 'escalate', 'issue': 'I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.'}, Tone: escalation, Action: [ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+    },
+    {
+      "timestamp": "2025-06-04T14:06:50.531994",
+      "agent": "JSONAgent",
+      "input_meta": {
+        "source": "your_sample.json",
+        "timestamp": "2025-06-04T14:10:00Z",
+        "format": "JSON"
+      },
+      "extracted": {
+        "event": "user_signup",
+        "timestamp": "2025-06-04T14:10:00Z",
+        "payload": {
+          "user_id": 12345,
+          "email": "testuser@example.com"
+        }
+      },
+      "actions": [
+        "Schema valid"
+      ],
+      "trace": "Schema valid"
+    },
+    {
+      "timestamp": "2025-06-04T14:20:09.213235",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T14:20:30.690424",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T14:28:17.899630",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "C:\\Users\\rocks\\OneDrive\\Desktop\\New folder\\uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:29:37.693629",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:34:19.676340",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:34:35.748177",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:34:39.280531",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:34:41.175860",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:36:59.247843",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "uploads\\Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T14:38:05.017279",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Important_ Request for the official registration! (Internships in Japan for AI and Tech Talent by METI of Japan).eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "=?UTF-8?Q?Internships_in_Japan__for_AI_and_?=",
+        "urgency": "routine",
+        "issue": "Japan for AI and Tech Talent by METI of Japan)",
+        "tone": "polite"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender =?UTF-8?Q?Internships_in_Japan__for_AI_and_?= (issue: Japan for AI and Tech Talent by METI of Japan))"
+      ],
+      "trace": "Fields: {'sender': '=?UTF-8?Q?Internships_in_Japan__for_AI_and_?=', 'urgency': 'routine', 'issue': 'Japan for AI and Tech Talent by METI of Japan)'}, Tone: polite, Action: [ACTION] Routine: Logged and closed for sender =?UTF-8?Q?Internships_in_Japan__for_AI_and_?= (issue: Japan for AI and Tech Talent by METI of Japan))"
+    },
+    {
+      "timestamp": "2025-06-04T14:42:13.710317",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:42:25.810834",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Last chance_ These prices end in few days!.eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "GeeksforGeeks <no-reply@geeksforgeeks.org>",
+        "urgency": "routine",
+        "issue": "MIME-Version: 1.0",
+        "tone": "neutral"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+      ],
+      "trace": "Fields: {'sender': 'GeeksforGeeks <no-reply@geeksforgeeks.org>', 'urgency': 'routine', 'issue': 'MIME-Version: 1.0'}, Tone: neutral, Action: [ACTION] Routine: Logged and closed for sender GeeksforGeeks <no-reply@geeksforgeeks.org> (issue: MIME-Version: 1.0)"
+    },
+    {
+      "timestamp": "2025-06-04T14:42:53.863957",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "uploads\\Important_ Request for the official registration! (Internships in Japan for AI and Tech Talent by METI of Japan).eml",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "=?UTF-8?Q?Internships_in_Japan__for_AI_and_?=",
+        "urgency": "routine",
+        "issue": "Japan for AI and Tech Talent by METI of Japan)",
+        "tone": "polite"
+      },
+      "actions": [
+        "[ACTION] Routine: Logged and closed for sender =?UTF-8?Q?Internships_in_Japan__for_AI_and_?= (issue: Japan for AI and Tech Talent by METI of Japan))"
+      ],
+      "trace": "Fields: {'sender': '=?UTF-8?Q?Internships_in_Japan__for_AI_and_?=', 'urgency': 'routine', 'issue': 'Japan for AI and Tech Talent by METI of Japan)'}, Tone: polite, Action: [ACTION] Routine: Logged and closed for sender =?UTF-8?Q?Internships_in_Japan__for_AI_and_?= (issue: Japan for AI and Tech Talent by METI of Japan))"
+    },
+    {
+      "timestamp": "2025-06-04T14:44:46.074935",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "uploads\\InternalSourcesofFinanceforBusinessOrganizations.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [
+          {
+            "qty": 32,
+            "desc": "PUBLICA TIONS \u00a0\u00a0\u00a029 CITATIONS \u00a0\u00a0\u00a0\nSEE PROFILE\nAll c ontent f ollo wing this p age was uplo aded b y Vikas Shr otriy a on 23 No vember",
+            "price": 2019.0
+          }
+        ],
+        "policy_mentions": []
+      },
+      "actions": [],
+      "trace": "Fields: {'total': None, 'line_items': [{'qty': 32, 'desc': 'PUBLICA TIONS \\xa0\\xa0\\xa029 CITATIONS \\xa0\\xa0\\xa0\\nSEE PROFILE\\nAll c ontent f ollo wing this p age was uplo aded b y Vikas Shr otriy a on 23 No vember', 'price': 2019.0}]}, Policy: []"
+    },
+    {
+      "timestamp": "2025-06-04T14:48:11.557031",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "uploads\\InternalSourcesofFinanceforBusinessOrganizations.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [
+          {
+            "qty": 32,
+            "desc": "PUBLICA TIONS \u00a0\u00a0\u00a029 CITATIONS \u00a0\u00a0\u00a0\nSEE PROFILE\nAll c ontent f ollo wing this p age was uplo aded b y Vikas Shr otriy a on 23 No vember",
+            "price": 2019.0
+          }
+        ],
+        "policy_mentions": []
+      },
+      "actions": [],
+      "trace": "Fields: {'total': None, 'line_items': [{'qty': 32, 'desc': 'PUBLICA TIONS \\xa0\\xa0\\xa029 CITATIONS \\xa0\\xa0\\xa0\\nSEE PROFILE\\nAll c ontent f ollo wing this p age was uplo aded b y Vikas Shr otriy a on 23 No vember', 'price': 2019.0}]}, Policy: []"
+    },
+    {
+      "timestamp": "2025-06-04T14:52:57.755776",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "uploads\\Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T15:00:08.818569",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "uploads\\Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T15:05:00.480265",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "Gmail - Follow up to application for the role of AI Agent Development Internship!.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": [
+          "GDPR",
+          "FDA"
+        ]
+      },
+      "actions": [
+        "Policy mentions: ['GDPR', 'FDA']"
+      ],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: ['GDPR', 'FDA']"
+    },
+    {
+      "timestamp": "2025-06-04T15:08:00.468032",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "C:\\Users\\rocks\\OneDrive\\Desktop\\New folder\\uploads\\InvoiceHistory.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": []
+      },
+      "actions": [],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: []"
+    },
+    {
+      "timestamp": "2025-06-04T15:09:06.885512",
+      "agent": "PDFAgent",
+      "input_meta": {
+        "source": "uploads\\InvoiceHistory.pdf",
+        "timestamp": null,
+        "format": "PDF"
+      },
+      "extracted": {
+        "total": null,
+        "line_items": [],
+        "policy_mentions": []
+      },
+      "actions": [],
+      "trace": "Fields: {'total': None, 'line_items': []}, Policy: []"
+    },
+    {
+      "timestamp": "2025-06-05T10:37:17.225742",
+      "agent": "EmailAgent",
+      "input_meta": {
+        "source": "sample_email.txt",
+        "timestamp": null,
+        "format": "Email"
+      },
+      "extracted": {
+        "sender": "angry.customer@example.com",
+        "urgency": "escalate",
+        "issue": "I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.",
+        "tone": "escalation",
+        "intent": "Complaint",
+        "confidence": 0.95
+      },
+      "actions": [
+        "[ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+      ],
+      "trace": "Fields: {'sender': 'angry.customer@example.com', 'urgency': 'escalate', 'issue': 'I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.'}, Tone: escalation, Intent: Complaint, Confidence: 0.95, Action: [ACTION] Escalated: Notified CRM for sender angry.customer@example.com (issue: I am extremely dissatisfied with your service. This is not acceptable and I demand immediate action. If this is not resolved ASAP, I will escalate this to higher authorities.)"
+    },
+    {
+      "timestamp": "2025-06-05T10:37:46.158286",
+      "agent": "JSONAgent",
+      "input_meta": {
+        "source": "sample_data.json",
+        "timestamp": "2025-06-05T10:30:00Z",
+        "format": "JSON"
+      },
+      "extracted": {
+        "event": "financial_transaction",
+        "timestamp": "2025-06-05T10:30:00Z",
+        "payload": {
+          "transaction_id": "TXN_123456",
+          "amount": 15000.0,
+          "sender": "suspicious_account@offshore.com",
+          "recipient": "company_account@business.com",
+          "description": "Large transfer with unusual pattern"
+        }
+      },
+      "actions": [
+        "Schema valid"
+      ],
+      "trace": "Schema valid"
+    }
+  ]
+}

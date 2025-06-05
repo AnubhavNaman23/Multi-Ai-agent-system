@@ -1,0 +1,11 @@
+{
+  "event": "financial_transaction",
+  "timestamp": "2025-06-05T10:30:00Z",
+  "payload": {
+    "transaction_id": "TXN_123456",
+    "amount": 15000.00,
+    "sender": "suspicious_account@offshore.com",
+    "recipient": "company_account@business.com",
+    "description": "Large transfer with unusual pattern"
+  }
+}
